@@ -38,16 +38,3 @@ Thumbs.db
 .coverage
 htmlcov/
 .pytest_cache/
-```
-
-## 2. Struttura del repository
-```
-python-learning/
-├── .gitignore
-├── README.md
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── code/
-│   ├── hello.py
-│   └── ...altri script
