@@ -1,0 +1,53 @@
+# .gitignore
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env variables
+.env
+.env.local
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+```
+
+## 2. Struttura del repository
+```
+python-learning/
+├── .gitignore
+├── README.md
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── code/
+│   ├── hello.py
+│   └── ...altri script

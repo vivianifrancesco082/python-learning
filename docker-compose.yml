@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  python-dev:
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-learning
+    volumes:
+      - ./code:/app
+    stdin_open: true
+    tty: true
+    working_dir: /app
